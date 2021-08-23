@@ -12,7 +12,7 @@ public class VeriTabani {
         Connection conn=null;
         try{
             conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/HastaneVT",
-                    "postgres", "134466ay.");
+                    "postgres", "sifre");
             if (conn != null)
                 System.out.println();
             else
